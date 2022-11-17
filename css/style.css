@@ -3,9 +3,21 @@
     flex-wrap: wrap;
 }
 
-.grid-cell {
-    border: 2px solid rgb(214, 26, 26);
-    padding: 3rem;
+.cell {
+    width: 30px;
     aspect-ratio: 1/1;
-    background-color: aqua;
+    background-color: #C6C6C6;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white #808080 #808080 white;;
+    transition: border 1s;
+}
+
+.cell.active {
+    border: 1px solid #808080;
+}
+
+.cell.active {
+    background-color:green;
+    
 }
